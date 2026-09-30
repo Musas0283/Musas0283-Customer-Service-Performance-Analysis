@@ -51,6 +51,14 @@ The large proportion of unresolved tickets suggests that ticket age, resolution 
 ### Customer Satisfaction
 
 The average customer satisfaction rating among Closed tickets was approximately **2.99 out of 5**.
+| Customer Satisfaction Rating | Number of Tickets | Percentage of Closed Tickets |
+|-----------------------------:|------------------:|-----------------------------:|
+| 1 | 553 | 19.97% |
+| 2 | 549 | 19.83% |
+| 3 | 580 | 20.95% |
+| 4 | 543 | 19.61% |
+| 5 | 544 | 19.65% |
+
 
 Ratings were relatively evenly distributed across the five rating levels, with a rating of 3 being slightly more common.
 
@@ -70,6 +78,8 @@ The relatively small differences suggest that further investigation is needed to
 Average customer satisfaction was similar across all age groups.
 
 Customers aged **31–40** had the highest average satisfaction rating at approximately **3.03/5**, while customers aged **51–60** had the lowest at approximately **2.94/5**.
+<img width="640" height="480" alt="fig3" src="https://github.com/user-attachments/assets/51a4308a-8e76-4999-b923-53b97cb9602b" />
+
 
 The small difference suggests that customer satisfaction did not vary substantially by age group in this dataset.
 
@@ -78,6 +88,8 @@ The small difference suggests that customer satisfaction did not vary substantia
 A significant data-quality issue was identified.
 
 Of the **2,769 Closed tickets**, **1,365 (49.3%)** had negative response-to-resolution durations, meaning the recorded resolution timestamp occurred before the first-response timestamp.
+<img width="640" height="480" alt="pie1" src="https://github.com/user-attachments/assets/33ec6867-3bcf-4b12-b20a-faa3e95cf696" />
+
 
 These records were retained because they contained other useful information, but invalid durations were excluded from response-to-resolution time calculations.
 
